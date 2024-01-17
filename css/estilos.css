@@ -105,8 +105,8 @@ header .contenedor-texto .texto .profesion {
     margin: 40px auto 60px auto;
 }
 .principal .acerca-de .texto .titulo {
-    font-size: 34px;
-    line-height: 34px;
+    font-size: 60px;
+    line-height: 60px;
     margin-bottom: 40px;
     font-weight: 300;
     color: #3E539C;
@@ -115,4 +115,108 @@ header .contenedor-texto .texto .profesion {
 .principal .acerca-de .texto .bold {
     color: #3895ea;
     text-decoration: underline;
+}
+
+/* -------------trabajos------------------- */
+
+.principal .trabajos {
+    background-color: #E3E3E3;
+    padding: 30px 0;
+}
+
+.principal .trabajos .contenedor {
+    overflow: hidden;
+}
+
+.principal .trabajos .titulo {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #3E539C;
+    text-align: center;
+}
+
+.principal .trabajos .contenedor-trabajos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.principal .trabajos .contenedor-trabajos .trabajo {
+    width: 30%;
+}
+
+.principal .trabajos .contenedor-trabajos .trabajo .logo-trabajo{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.principal .trabajos .contenedor-trabajos .trabajo .logo-trabajo img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
+.principal .trabajos .contenedor-trabajos .trabajo .descripcion {
+    text-align: center;
+}
+.principal .trabajos .contenedor-trabajos .trabajo .nombre {
+    color: #3E539C;
+}
+.principal .trabajos .contenedor-trabajos .trabajo .fechas {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* -----------------------Tecnologías------------------------------- */
+
+.principal .tecnologias {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.principal .tecnologias .contenedor {
+    overflow: hidden;
+}
+
+.principal .tecnologias .titulo {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #3E539C;
+    text-align: center;
+}
+
+.principal .tecnologias .contenedor-tecnologias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.principal .tecnologias .contenedor-tecnologias .habilidades {
+    width: 30%;
+}
+
+.principal .tecnologias .contenedor-tecnologias .habilidades .tecnologias-icono{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.principal .tecnologias .contenedor-tecnologias .habilidades .tecnologias-icono img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
+.principal .tecnologias .contenedor-tecnologias .habilidades .descripcion {
+    text-align: center;
+}
+.principal .tecnologias .contenedor-tecnologias .habilidades .nombre {
+    color: #3E539C;
+}
+.principal .tecnologias .contenedor-tecnologias .habilidades .actividades {
+    font-size: 14px;
+    font-weight: 300;
 }
