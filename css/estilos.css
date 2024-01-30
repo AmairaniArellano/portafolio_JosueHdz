@@ -28,11 +28,11 @@ header {
 
 header .menu {
     margin: 40px;
-    text-align: right;
+    text-align: right; 
 }
 
 header .menu a {
-    margin: 0 20pz;
+    margin: 0 20px;
     color: white;
     padding-bottom: 9px;
     display: inline-block;
